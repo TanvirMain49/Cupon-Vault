@@ -6,14 +6,14 @@ const BrandOnSell = ({coupons: brands}) => {
     console.log(brands)
     return (
         <div className='py-16'>
-            <h1 className='text-6xl text-white font-bold text-center mb-16'>Brands on Sale</h1>
+            <h1 className='text-6xl text-white font-bold text-center mb-28'>Brands on Sale</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 lg:ml-12'>
             {
                 brands.slice(0, 6).map(brand=> <BrandOnSellCard key={brand._id} brand={brand}></BrandOnSellCard>)
             }
             </div>
-            <div className='flex justify-center items-center py-8'>
-            <NavLink to='/brand' className="btn border-2 border-red-800 text-red-800 bg-gray-300 font-bold rounded-xl w-32">see more</NavLink>
+            <div className='flex justify-center items-center py-16'>
+            <NavLink to='/brand' className="btn border-2 border-red-800 text-red-800  font-bold rounded-xl w-28">see more</NavLink>
             </div>
         </div>
     );

@@ -28,7 +28,7 @@ const BrandOnSellCard = ({ brand }) => {
         </p>
 
         <div className="card-actions justify-start">
-          <div className="badge badge-outline rounded-xl font-bold border-green-500 text-green-500">
+          <div className="badge badge-outline rounded-xl font-bold border-white text-white">
             {brand.category}
           </div>
         </div>

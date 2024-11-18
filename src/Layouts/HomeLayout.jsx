@@ -2,6 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import Slider from "../Components/Home/Slider";
 import TopBrand from "../Components/Home/TopBrand";
 import BrandOnSell from "../Components/Home/BrandOnSell";
+import CouponTool from "../Components/Home/CouponTool";
+import Reviews from "../Components/Home/Reviews";
 const HomeLayout = () => {
   const coupons = useLoaderData();
   return (
@@ -24,6 +26,10 @@ const HomeLayout = () => {
       <TopBrand coupons={coupons}></TopBrand>
 
       <BrandOnSell coupons={coupons}></BrandOnSell>
+
+      <CouponTool></CouponTool>
+
+      <Reviews></Reviews>
     </div>
   );
 };
