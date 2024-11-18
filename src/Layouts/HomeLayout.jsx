@@ -1,14 +1,14 @@
 import { useLoaderData } from "react-router-dom";
 import Slider from "../Components/Home/Slider";
 import TopBrand from "../Components/Home/TopBrand";
+import BrandOnSell from "../Components/Home/BrandOnSell";
 const HomeLayout = () => {
   const coupons = useLoaderData();
-  console.log(coupons);
   return (
-    <div>
-        {/* title */}
+    <div className="font-Roboto">
+        {/* title start*/}
       <div className="title">
-        <div className="text-center text-4xl font-semibold text-white mt-10">
+        <div className="text-center text-5xl font-bold text-white mt-5">
           <span className="text-red-700 font-bold">Welcome</span> to{" "}
           <span className="text-[#D4AF37]">CouponVault!</span>
         </div>
@@ -17,8 +17,13 @@ const HomeLayout = () => {
           shops.
         </p>
       </div>
+      {/* title end */}
+
       <Slider></Slider>
+
       <TopBrand coupons={coupons}></TopBrand>
+
+      <BrandOnSell coupons={coupons}></BrandOnSell>
     </div>
   );
 };

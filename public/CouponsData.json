@@ -12,11 +12,19 @@
                 "expiry_date": "2024-12-31",
                 "condition": "Minimum purchase of 1000 BDT",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "SHOP20",
+                "description": "Get 20% off on electronics",
+                "expiry_date": "2024-12-15",
+                "condition": "Minimum purchase of 5000 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://shopmartbd.com",
         "category": "Marketplace",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "2"
     },
     {
         "_id": "2",
@@ -31,11 +39,26 @@
                 "expiry_date": "2024-12-15",
                 "condition": "Applies only on items over 5000 BDT",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "TECH30",
+                "description": "30% off on accessories",
+                "expiry_date": "2024-11-30",
+                "condition": "Applies only to accessories",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "FREEDEL",
+                "description": "Free delivery on orders above 2000 BDT",
+                "expiry_date": "2024-12-31",
+                "condition": "Minimum order 2000 BDT",
+                "coupon_type": "delivery"
             }
         ],
         "shop_Link": "https://techbazaarbd.com",
         "category": "Electronics",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "3",
@@ -50,11 +73,33 @@
                 "expiry_date": "2024-12-10",
                 "condition": "No minimum purchase required",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "FASH25",
+                "description": "25% off on winter wear",
+                "expiry_date": "2024-12-20",
+                "condition": "Applies to winter collections",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "NEWYEAR10",
+                "description": "10% off on New Year collections",
+                "expiry_date": "2025-01-05",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "FREESHIP",
+                "description": "Free shipping on all orders",
+                "expiry_date": "2024-12-31",
+                "condition": "No conditions apply",
+                "coupon_type": "delivery"
             }
         ],
         "shop_Link": "https://fashionhubbd.com",
         "category": "Clothing",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "4"
     },
     {
         "_id": "4",
@@ -69,11 +114,26 @@
                 "expiry_date": "2024-12-31",
                 "condition": "On orders above 5000 BDT",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "HOMEDECOR15",
+                "description": "15% off on home decor",
+                "expiry_date": "2024-12-25",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "LIGHTS10",
+                "description": "10% off on lighting fixtures",
+                "expiry_date": "2024-12-20",
+                "condition": "On orders above 3000 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://homeplusbd.com",
         "category": "Furniture",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "5",
@@ -88,11 +148,26 @@
                 "expiry_date": "2024-12-15",
                 "condition": "Minimum purchase of 500 BDT",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "FRESH5",
+                "description": "5% off on fresh vegetables",
+                "expiry_date": "2024-12-20",
+                "condition": "Minimum purchase of 300 BDT",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "FRUIT10",
+                "description": "10% off on fruits",
+                "expiry_date": "2024-12-10",
+                "condition": "Minimum purchase of 200 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://groceriesbd.com",
         "category": "Groceries",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "6",
@@ -107,11 +182,33 @@
                 "expiry_date": "2024-11-30",
                 "condition": "Selected products only",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "SKIN15",
+                "description": "15% off on skincare items",
+                "expiry_date": "2024-12-15",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "MAKEUP20",
+                "description": "20% off on makeup products",
+                "expiry_date": "2024-12-25",
+                "condition": "Applies to orders above 1000 BDT",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "HAIR10",
+                "description": "10% off on haircare products",
+                "expiry_date": "2024-12-05",
+                "condition": "Minimum purchase of 500 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://beautyshopbd.com",
         "category": "Beauty",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "4"
     },
     {
         "_id": "7",
@@ -126,11 +223,26 @@
                 "expiry_date": "2024-12-31",
                 "condition": "No minimum purchase required",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "READ10",
+                "description": "10% off on selected fiction books",
+                "expiry_date": "2024-12-15",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "KIDS5",
+                "description": "5% off on children's books",
+                "expiry_date": "2024-12-20",
+                "condition": "Minimum purchase of 300 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://bookstorebd.com",
         "category": "Books",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "8",
@@ -145,11 +257,26 @@
                 "expiry_date": "2024-12-05",
                 "condition": "No minimum purchase required",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "SPORTS15",
+                "description": "15% off on sports accessories",
+                "expiry_date": "2024-12-10",
+                "condition": "Minimum purchase of 500 BDT",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "TEAM20",
+                "description": "20% off on team sports equipment",
+                "expiry_date": "2024-12-25",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://sportsgearbd.com",
         "category": "Sports",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "9",
@@ -164,11 +291,19 @@
                 "expiry_date": "2024-12-01",
                 "condition": "No minimum purchase required",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "PET10",
+                "description": "10% off on pet food",
+                "expiry_date": "2024-12-10",
+                "condition": "Minimum purchase of 200 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://petshopbd.com",
         "category": "Pets",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "2"
     },
     {
         "_id": "10",
@@ -183,11 +318,26 @@
                 "expiry_date": "2024-12-20",
                 "condition": "Selected items only",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "GADGET10",
+                "description": "10% off on all accessories",
+                "expiry_date": "2024-12-15",
+                "condition": "No minimum purchase required",
+                "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "GADGET25",
+                "description": "25% off on selected smartwatches",
+                "expiry_date": "2024-12-10",
+                "condition": "Selected items only",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://gadgetworld.com",
         "category": "Electronics",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "3"
     },
     {
         "_id": "11",
@@ -202,11 +352,19 @@
                 "expiry_date": "2024-12-10",
                 "condition": "No conditions apply",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "JEWEL10",
+                "description": "10% off on jewelry accessories",
+                "expiry_date": "2024-12-05",
+                "condition": "Minimum purchase of 1000 BDT",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://luxuryjewels.com",
         "category": "Jewelry",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "2"
     },
     {
         "_id": "12",
@@ -221,10 +379,18 @@
                 "expiry_date": "2024-12-01",
                 "condition": "No minimum purchase required",
                 "coupon_type": "percentage"
+            },
+            {
+                "coupon_code": "AUTO15",
+                "description": "15% off on selected spare parts",
+                "expiry_date": "2024-12-10",
+                "condition": "Selected items only",
+                "coupon_type": "percentage"
             }
         ],
         "shop_Link": "https://autoshopbd.com",
         "category": "Automotive",
-        "isSaleOn": true
+        "isSaleOn": true,
+        "total_coupons": "2"
     }
 ]
