@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout";
 import HomeLayout from "../Layouts/HomeLayout";
+import Brand from "../Pages/Brand";
 
 const route = createBrowserRouter([
     {
@@ -9,8 +10,13 @@ const route = createBrowserRouter([
         children: [
             {
                 path:'/',
-                element:<HomeLayout></HomeLayout>
-            }
+                element:<HomeLayout></HomeLayout>,
+                loader:()=> fetch('CouponsData.json')
+            },
+            {
+                path:'/brand',
+                element:<Brand></Brand>,
+            },
         ]
     },
     {

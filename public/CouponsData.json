@@ -4,7 +4,7 @@
         "brand_name": "ShopMart BD",
         "rating": 4.5,
         "description": "ShopMart BD is the leading online marketplace in Bangladesh, offering a wide range of products from electronics to daily essentials.",
-        "brand_logo": "https://example.com/logos/shopmart.png",
+        "brand_logo": "https://img.freepik.com/free-vector/gradient-instagram-shop-logo-template_23-2149704603.jpg?semt=ais_hybrid",
         "coupons": [
             {
                 "coupon_code": "SHOP10",
@@ -23,7 +23,7 @@
         "brand_name": "TechBazaar",
         "rating": 4.2,
         "description": "TechBazaar is a well-known e-commerce store in Bangladesh specializing in electronics and gadgets.",
-        "brand_logo": "https://example.com/logos/techbazaar.png",
+        "brand_logo": "https://i.ibb.co.com/PgLzfV4/Tech-Bazaar-Black-BG.jpg",
         "coupons": [
             {
                 "coupon_code": "TECH20",
@@ -42,7 +42,7 @@
         "brand_name": "FashionHub",
         "rating": 4.6,
         "description": "FashionHub is the ultimate destination for trendy and affordable fashion in Bangladesh.",
-        "brand_logo": "https://example.com/logos/fashionhub.png",
+        "brand_logo": "https://i.ibb.co.com/cYQG3Zv/images.jpg",
         "coupons": [
             {
                 "coupon_code": "STYLE15",
@@ -61,7 +61,7 @@
         "brand_name": "HomePlus",
         "rating": 4.4,
         "description": "HomePlus offers a variety of home goods, furniture, and decor at affordable prices.",
-        "brand_logo": "https://example.com/logos/homeplus.png",
+        "brand_logo": "https://i.ibb.co.com/G9bLL0v/images-1.jpg",
         "coupons": [
             {
                 "coupon_code": "FURNI20",
@@ -80,7 +80,7 @@
         "brand_name": "GroceriesBD",
         "rating": 4.3,
         "description": "GroceriesBD delivers fresh groceries and essentials to your doorstep.",
-        "brand_logo": "https://example.com/logos/groceriesbd.png",
+        "brand_logo": "https://i.ibb.co.com/xSh9F6Q/modern-logo-vegetable-shopping-cart-260nw-2288900053.webp",
         "coupons": [
             {
                 "coupon_code": "GROCERY10",
@@ -99,7 +99,7 @@
         "brand_name": "BeautyShop BD",
         "rating": 4.7,
         "description": "BeautyShop BD offers a range of beauty products including skincare, makeup, and haircare.",
-        "brand_logo": "https://example.com/logos/beautyshopbd.png",
+        "brand_logo": "https://i.ibb.co.com/XWFH0wR/images.png",
         "coupons": [
             {
                 "coupon_code": "BEAUTY25",
@@ -118,7 +118,7 @@
         "brand_name": "BookStore BD",
         "rating": 4.5,
         "description": "BookStore BD is the go-to place for books across various genres and languages.",
-        "brand_logo": "https://example.com/logos/bookstorebd.png",
+        "brand_logo": "https://i.ibb.co.com/gDshx3Y/images-1.png",
         "coupons": [
             {
                 "coupon_code": "BOOK15",
@@ -137,7 +137,7 @@
         "brand_name": "SportsGear BD",
         "rating": 4.3,
         "description": "SportsGear BD provides the latest sports equipment and gear.",
-        "brand_logo": "https://example.com/logos/sportsgearbd.png",
+        "brand_logo": "https://i.ibb.co.com/CQXfTrY/compressed-3ab54ea1a0c89207456815e80ac19427.webp",
         "coupons": [
             {
                 "coupon_code": "SPORTS10",
@@ -156,7 +156,7 @@
         "brand_name": "PetShop BD",
         "rating": 4.5,
         "description": "PetShop BD offers pet supplies for all kinds of pets.",
-        "brand_logo": "https://example.com/logos/petshopbd.png",
+        "brand_logo": "https://i.ibb.co.com/rfzdX7P/pet-shop-logo-premium-elegant-template-eps-10-vector.jpg",
         "coupons": [
             {
                 "coupon_code": "PET5",
@@ -175,7 +175,7 @@
         "brand_name": "GadgetWorld",
         "rating": 4.6,
         "description": "GadgetWorld specializes in the latest tech gadgets and accessories.",
-        "brand_logo": "https://example.com/logos/gadgetworld.png",
+        "brand_logo": "https://i.ibb.co.com/VqFrHKj/images-2.jpg",
         "coupons": [
             {
                 "coupon_code": "GADGET15",
@@ -194,7 +194,7 @@
         "brand_name": "LuxuryJewels",
         "rating": 4.8,
         "description": "LuxuryJewels offers a wide range of high-end jewelry for all occasions.",
-        "brand_logo": "https://example.com/logos/luxuryjewels.png",
+        "brand_logo": "https://i.ibb.co.com/L9rfZrh/images-3.jpg",
         "coupons": [
             {
                 "coupon_code": "JEWEL25",
@@ -213,7 +213,7 @@
         "brand_name": "AutoShop BD",
         "rating": 4.4,
         "description": "AutoShop BD offers car accessories, spare parts, and maintenance services.",
-        "brand_logo": "https://example.com/logos/autoshopbd.png",
+        "brand_logo": "https://i.ibb.co.com/mFw65sp/auto-style-car-logo-design-600nw-573374866.webp",
         "coupons": [
             {
                 "coupon_code": "AUTO10",
