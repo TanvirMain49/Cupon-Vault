@@ -16,6 +16,7 @@ const route = createBrowserRouter([
             {
                 path:'/brand',
                 element:<Brand></Brand>,
+                loader:()=> fetch('CouponsData.json')
             },
         ]
     },

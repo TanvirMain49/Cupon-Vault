@@ -336,7 +336,7 @@
         ],
         "shop_Link": "https://gadgetworld.com",
         "category": "Electronics",
-        "isSaleOn": true,
+        "isSaleOn": false,
         "total_coupons": "3"
     },
     {
@@ -390,7 +390,7 @@
         ],
         "shop_Link": "https://autoshopbd.com",
         "category": "Automotive",
-        "isSaleOn": true,
+        "isSaleOn": false,
         "total_coupons": "2"
     }
 ]

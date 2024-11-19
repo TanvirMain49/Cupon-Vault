@@ -13,7 +13,7 @@ const BrandOnSell = ({coupons: brands}) => {
             }
             </div>
             <div className='flex justify-center items-center py-16'>
-            <NavLink to='/brand' className="btn border-2 border-red-800 text-red-800  font-bold rounded-xl w-28">see more</NavLink>
+            <NavLink to='/brand' className="btn border-2 border-yellow-500 text-yellow-500  font-bold rounded-xl w-28">see more</NavLink>
             </div>
         </div>
     );

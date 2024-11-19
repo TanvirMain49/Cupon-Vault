@@ -36,11 +36,11 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-4 font-semibold">
-            <NavLink className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200">
+            <NavLink to="/" className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200">
               Home
             </NavLink>
 
-            <NavLink className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200">
+            <NavLink to="/brand" className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200">
               Brand
             </NavLink>
 
@@ -50,10 +50,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-3">
-          <a className="btn bg-red-700 hover:bg-red-900 text-white font-bold rounded-sm">
+          <a className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 text-white font-bold rounded-sm">
             Log in
           </a>
-          <a className="btn bg-red-700 hover:bg-red-900 text-white font-bold rounded-sm ">
+          <a className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 text-white font-bold rounded-sm ">
             Register
           </a>
         </div>
