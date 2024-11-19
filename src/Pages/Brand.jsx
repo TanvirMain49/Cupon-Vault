@@ -1,8 +1,7 @@
 import React from "react";
-import { NavLink, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import BrandCard from "../Components/Brand/BrandCard";
-import { FaArrowAltCircleLeft, FaSearch } from "react-icons/fa";
-import { RiSearchEyeFill } from "react-icons/ri";
+
 
 const Brand = () => {
   const brands = useLoaderData();
@@ -43,9 +42,3 @@ const Brand = () => {
 
 export default Brand;
 
-{
-  /* <NavLink to='/' className="flex gap-2 items-center btn w-40 mt-12 bg-gradient-to-r from-red-500 to-violet-800 text-white hover:scale-105 transition duration-300 all ease-out rounded-xl hover:text-base">
-<FaArrowAltCircleLeft/>
-Back to Home
-</NavLink> */
-}

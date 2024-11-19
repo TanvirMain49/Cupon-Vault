@@ -49,13 +49,13 @@ const Header = () => {
             </NavLink>
           </ul>
         </div>
-        <div className="navbar-end space-x-3">
-          <a className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 text-white font-bold rounded-sm">
+        <div className="navbar-end space-x-6">
+          <NavLink to="/login" className="btn bg-gradient-to-r from-red-700 to-violet-800  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700 text-white font-bold rounded-lg">
             Log in
-          </a>
-          <a className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 text-white font-bold rounded-sm ">
+          </NavLink>
+          <NavLink to="/register" className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700">
             Register
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
