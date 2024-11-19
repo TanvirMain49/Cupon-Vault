@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="max-w-screen flex gap-8 py-20 mx-auto bg-gradient-to-r from-red-500 to-violet-700 pl-24">
+    <div className="max-w-screen flex gap-8 py-20 mx-auto bg-[#201E43]">
       <img
-        src="https://i.ibb.co.com/dLxbD91/Computer-login-bro.png"
+        src="https://i.ibb.co.com/vY9P8XP/Computer-login-bro-2.png"
         alt=""
         className="w-[45%]"
       />
@@ -47,7 +47,7 @@ const Login = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn bg-gradient-to-r from-red-700 to-violet-800  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700 text-white font-bold rounded-lg">
+              <button className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg border-none">
                 Login
               </button>
             </div>
@@ -63,7 +63,7 @@ const Login = () => {
         <div className="divider divider-accent py-4 ml-12">OR</div>
 
         <button 
-        className="btn bg-gradient-to-r from-red-700 to-violet-800  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700 text-white font-bold rounded-lg ml-12 w-[90%]">
+        className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] border-none text-white font-bold rounded-lg ml-12 w-[90%]">
           {" "}
           <FaGoogle /> Log in with google
         </button>

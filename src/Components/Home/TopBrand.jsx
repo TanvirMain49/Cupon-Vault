@@ -8,8 +8,8 @@ const TopBrand = ({ coupons }) => {
     <div className="mb-24">
       <h1 className="text-center text-5xl font-bold px-20 my-20 -leading-8">
         Trusted by Users and{" "}
-        <span className="text-[#D4AF37]">Top Companies</span> Across Bangladesh
-        to Find the <span className="text-[#D4AF37]">Best Coupons</span>
+        <span className="text-[#78B3CE]">Top Companies</span> Across Bangladesh
+        to Find the <span className="text-[#78B3CE]">Best Coupons</span>
       </h1>
 
       <Marquee pauseOnHover="true" speed ="180">

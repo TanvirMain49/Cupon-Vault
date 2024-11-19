@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const BrandOnSellCard = ({ brand }) => {
   console.log(brand);
   return (
-    <div className="card flex-row w-96 border border-gray-300 rounded-xl  hover:shadow-lg hover:shadow-red-800 hover:scale-105 transition-all ease-in-out duration-300 relative">
+    <div className="card flex-row w-96 border border-gray-300 rounded-xl  hover:shadow-lg hover:shadow-[#508C9B] hover:scale-105 transition-all ease-in-out duration-300 relative">
       <figure className="rounded-br-3xl">
         <img
           src={brand.brand_logo}

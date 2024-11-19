@@ -50,10 +50,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-6">
-          <NavLink to="/login" className="btn bg-gradient-to-r from-red-700 to-violet-800  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700 text-white font-bold rounded-lg">
+          <NavLink to="/login" className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg">
             Log in
           </NavLink>
-          <NavLink to="/register" className="btn bg-gradient-to-r from-red-700 to-violet-800 hover:bg-red-900 hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-gradient-to-r hover:from-red-700 hover:to-red-700">
+          <NavLink to="/register" className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]">
             Register
           </NavLink>
         </div>
