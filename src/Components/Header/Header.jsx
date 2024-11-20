@@ -11,7 +11,7 @@ const Header = () => {
     signOutUser()
       .then(() => {
         // Sign-out success logic
-        console.log('logOut successfully')
+        console.log("logOut successfully");
       })
       .catch((error) => {
         // Error handling logic
@@ -43,33 +43,57 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <NavLink>Home</NavLink>
-              <NavLink>Brand</NavLink>
-              <NavLink>About Dev</NavLink>
-              {user && <NavLink>About Dev</NavLink>}
+              <NavLink
+                to="/"
+                className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200"
+              >
+                Home
+              </NavLink>
+
+              <NavLink
+                to="/brand"
+                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+              >
+                Brand
+              </NavLink>
+
+              <NavLink
+                to="/aboutDev"
+                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+              >
+                About Dev
+              </NavLink>
+              {user && (
+                <NavLink
+                  to="/profile"
+                  className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+                >
+                  My Profile
+                </NavLink>
+              )}
             </ul>
           </div>
-          <a className="text-2xl font-bold italic">CouponVault</a>
+          <a className="md:text-2xl font-bold italic">CouponVault</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-4 font-semibold">
             <NavLink
               to="/"
-              className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200"
+              className="btn-ghost p-2 rounded-sm"
             >
               Home
             </NavLink>
 
             <NavLink
               to="/brand"
-              className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+              className="btn-ghost p-2 r"
             >
               Brand
             </NavLink>
 
             <NavLink
               to="/aboutDev"
-              className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+              className="btn-ghost p-2"
             >
               About Dev
             </NavLink>
@@ -85,29 +109,35 @@ const Header = () => {
         </div>
 
         {user ? (
-          <div className="navbar-end items-center space-x-6">
-            <div className="flex justify-center items-center gap-0">
-              <img src={user.photoURL} alt="" className="w-12 h-12 rounded-full border-2 border-white p-2"/>
-              <p className="text-sm text-white border-r-2 border-y-2 border-white rounded-xl py-1 pr-2 pl-1 font-bold">{user.email}</p>
+          <div className="navbar-end items-center md:space-x-6 md:ml-0">
+            <div className="flex justify-center items-center gap-0 ">
+              <img
+                src={user.photoURL}
+                alt=""
+                className="w-12 h-12 rounded-full border-2 border-white md:p-2 p-1 md:mr-0 mr-2"
+              />
+              <p className="text-sm text-white border-r-2 border-y-2 border-white rounded-xl py-1 pr-2 pl-1 font-bold lg:block hidden">
+                {user.email}
+              </p>
             </div>
             <button
               onClick={handleSignOut}
-              className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]"
+              className="btn bg-[#134B70] md:hover:scale-105 transition ease-out duration-300 md:hover:text-base text-white font-bold rounded-lg md:hover:bg-[#508C9B] md:mr-0 mr-3"
             >
               Log out
             </button>
           </div>
         ) : (
-          <div className="navbar-end space-x-6">
+          <div className="navbar-end md:space-x-6 space-x-2">
             <NavLink
               to="/login"
-              className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg"
+              className="btn bg-[#134B70]  md:hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg"
             >
               Log in
             </NavLink>
             <NavLink
               to="/register"
-              className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]"
+              className="btn bg-[#134B70] md:hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B] md:mr-0 mr-8"
             >
               Register
             </NavLink>

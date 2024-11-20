@@ -5,14 +5,14 @@ import banner2 from "../../assets/banner3.jpg"
 
 const Slider = () => {
   return (
-    <div className="carousel w-full rounded-xl h-screen object-cover py-8">
+    <div className="carousel w-full rounded-xl md:h-screen object-cover md:py-8">
   <div id="slide1" className="carousel-item relative w-full ">
   <video
       src="https://media.istockphoto.com/id/1124580988/video/sale-discount-animation.mp4?s=mp4-640x640-is&k=20&c=2zkbq3ujo3KveLEviCLhbTiIH9C7fAaCpABvuZvHoek="
       className="w-full" autoPlay muted loop />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide4" className="btn btn-circle">❮</a>
-      <a href="#slide2" className="btn btn-circle">❯</a>
+      <a href="#slide4" className="text-[#EEE] md:text-6xl text-2xl">❮</a>
+      <a href="#slide2" className="text-[#EEE] md:text-6xl text-2xl">❯</a>
     </div>
   </div>
   <div id="slide2" className="carousel-item relative w-full">

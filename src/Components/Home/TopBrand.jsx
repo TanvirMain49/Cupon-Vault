@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const TopBrand = ({ coupons }) => {
   console.log(coupons);
   return (
-    <div className="mb-24">
-      <h1 className="text-center text-5xl font-bold px-20 my-20 -leading-8">
+    <div className="md:mb-24">
+      <h1 className="text-center md:text-5xl text-3xl font-bold md:px-20 px-4 md:my-20 my-14 -leading-8">
         Trusted by Users and{" "}
         <span className="text-[#78B3CE]">Top Companies</span> Across Bangladesh
         to Find the <span className="text-[#78B3CE]">Best Coupons</span>

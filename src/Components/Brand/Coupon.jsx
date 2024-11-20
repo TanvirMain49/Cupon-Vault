@@ -15,8 +15,8 @@ const Coupon = ({ coupon, shop_link }) => {
           <p className="mb-4 text-start">{coupon.condition}</p>
 
           {/* coupon code */}
-          <div className="flex flex-row justify-start items-center space-x-2 mb-2">
-            <div className="border-dashed border text-white px-4 py-2 font-bold rounded-l">
+          <div className="flex md:flex-row flex-col justify-start md:items-center md:gap-0 gap-4 space-x-2 mb-2">
+            <div className="border-dashed border text-white px-4 md:mx-0 mx-1 py-2 font-bold rounded-l">
               {coupon.coupon_code}
             </div>
 
@@ -41,7 +41,7 @@ const Coupon = ({ coupon, shop_link }) => {
               Coupon Code Copied!
             </p>
           )}
-          <p className="text-base font-bold text-start">
+          <p className="text-base font-bold text-start mt-8">
             Valid Till: {coupon.expiry_date}
           </p>
 

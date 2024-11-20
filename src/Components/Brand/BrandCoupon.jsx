@@ -20,12 +20,12 @@ const BrandCoupon = () => {
   return (
     <div>
       {/* Banner Section */}
-      <div className="w-full bg-gradient-to-l from-[#090979] to-[#00d4ff] py-24 flex flex-col justify-center items-center rounded-3xl text-white mb-14">
-        <h1 className="text-5xl font-bold text-center">
+      <div className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white mb-14">
+        <h1 className="md:text-5xl text-3xl font-bold text-center">
           Exclusive Coupons for{" "}
           <span className="text-[#7ab9f5]"> {brand_name}</span>
         </h1>
-        <p className="text-base text-center pt-6 px-6 md:px-12 lg:px-72">
+        <p className="text-base text-center pt-6 px-3 md:px-12 lg:px-72">
           Explore the latest deals and discounts from brand_name. Save more on
           your favorite products with our exclusive coupons. Copy the code and
           start saving instantly!
@@ -36,8 +36,8 @@ const BrandCoupon = () => {
       </div>
 
       {/* company log */}
-      <div className="flex justify-center items-center gap-5 py-20">
-        <img src={brand_logo} alt="" />
+      <div className="flex justify-center items-center gap-5 md:py-10 py-7">
+        <img src={brand_logo} alt="" className="w-32 h-32"/>
         <div  className="border-l-2 border-white font-bold pl-4 h-full">
             <h3 className="text-2xl"> {brand_name}</h3>
             <p className="text-base">{description}</p>
@@ -49,7 +49,7 @@ const BrandCoupon = () => {
       <h1 className="text-3xl font-bold pb-16 text-center">
         Explore exclusive deals crafted just for you
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:mx-auto gap-6">
         {coupons?.map((coupon, idx) => (
           <Coupon key={idx} coupon={coupon} shop_link={shop_link}/>
         ))}

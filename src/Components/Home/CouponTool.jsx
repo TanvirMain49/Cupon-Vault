@@ -3,10 +3,10 @@ import React from "react";
 const CouponTool = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold">What you can do with Coupontools</h1>
-      <div className="flex items-center gpa-8 py-20">
+      <h1 className="md:text-4xl text-3xl font-bold">What you can do with Coupontools</h1>
+      <div className="flex md:flex-row flex-col-reverse items-center gpa-8 md:py-20 py-10">
         {/* coupon tools point */}
-        <div className="w-7/12">
+        <div className="md:w-7/12">
           <div className="collapse collapse-arrow">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title text-4xl font-bold">
@@ -81,7 +81,7 @@ const CouponTool = () => {
         {/* img */}
           <img
             src="https://media.istockphoto.com/id/495393288/vector/online-shopping-concept.jpg?s=612x612&w=0&k=20&c=2kIoSdw4GWuVfaQj37PCRkpgVqmGWsoSbaA6wllNF-U="
-            alt="" className="w-5/12 ml-16"
+            alt="" className="md:w-5/12 md:ml-16 md:mx-0 mx-3"
           />
       </div>
     </div>

@@ -39,17 +39,17 @@ const Login = () => {
   }
 
   return (
-    <div className="max-w-screen flex gap-8 py-20 mx-auto bg-[#201E43]">
+    <div className="md:max-w-screen flex gap-8 py-20 mx-auto bg-[#201E43]">
       <img
         src="https://i.ibb.co.com/vY9P8XP/Computer-login-bro-2.png"
         alt=""
-        className="w-[45%]"
+        className="w-[45%] md:block hidden"
       />
-      <div className="divider divider-accent divider-horizontal text-white"></div>
+      <div className="divider divider-accent divider-horizontal text-white md:block hidden"></div>
 
       {/* from start */}
       <div className="login">
-        <div className="card w-full max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white ml-12">
+        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 md:mx-0 mx-4">
 
           <form onSubmit={handleLogIn} className="card-body">
             <div className="form-control">
@@ -94,18 +94,18 @@ const Login = () => {
             </div>
           </form>
         </div>
-        <p className="font-bold text-center mt-6 text-sm ml-12">
+        <p className="font-bold text-center mt-6 text-sm md:ml-12">
           Don’t have an account yet?{" "}
           <NavLink to="/register" className="text-blue-800 underline">
             Register
           </NavLink>{" "}
           here to get started!
         </p>
-        <div className="divider divider-accent py-4 ml-12">OR</div>
+        <div className="divider divider-accent py-4 md:ml-12 md:mx-0 mx-3">OR</div>
 
         <button
         onClick={handleGoogle} 
-        className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] border-none text-white font-bold rounded-lg ml-12 w-[90%]">
+        className="btn bg-[#134B70] hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] border-none text-white font-bold rounded-lg md:ml-12 md:w-[90%] w-full">
           {" "}
           <FaGoogle /> Log in with google
         </button>

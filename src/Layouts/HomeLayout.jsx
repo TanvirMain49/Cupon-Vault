@@ -12,23 +12,23 @@ const HomeLayout = () => {
   return (
     <div className="font-Roboto">
       {/* title start*/}
-      <div className="title">
+      <div className="title md:mb-0 mb-8">
         {user ? (
           <>
-            <div className="text-center text-5xl font-bold text-white mt-5">
+            <div className="text-center md:text-5xl text-3xl font-bold text-white mt-5">
               Welcome, <span className="text-[#201E43]"> {user.displayName}</span>
             </div>
-            <p className="text-center text-gray-500 mt-4 px-44">
+            <p className="text-center md:text-base text-sm text-gray-500 mt-4 md:px-44 px-2">
             Explore the latest deals and discounts tailored just for you. Start saving today with your exclusive offers!
             </p>
           </>
         ) : (
           <>
-            <div className="text-center text-5xl font-bold text-white mt-5">
+            <div className="text-center md:text-5xl text-3xl font-bold text-white mt-5">
               <span className="text-[#508C9B] font-bold">Welcome</span> to{" "}
               <span className="text-[#508C9B]">CouponVault!</span>
             </div>
-            <p className="text-center text-gray-500 mt-2">
+            <p className="text-center text-gray-500 mt-4 md:px-44 px-2">
               Join us to unlock exclusive coupons and save big on your favorite
               shops.
             </p>

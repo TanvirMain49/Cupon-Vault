@@ -2,9 +2,9 @@ import React from 'react';
 
 const Reviews = () => {
     return (
-<section class="py-10">
+<section class="md:py-10 py-5">
   <div class="container mx-auto px-6">
-    <h2 class="text-4xl font-bold text-center mb-16">What <span className='text-[#508C9B]'> Our Customers</span> Say</h2>
+    <h2 class="text-4xl font-bold text-center md:mb-16 mb-8">What <span className='text-[#508C9B]'> Our Customers</span> Say</h2>
     <div class="grid gap-6 md:grid-cols-3">
       
       {/* cart 1 */}
