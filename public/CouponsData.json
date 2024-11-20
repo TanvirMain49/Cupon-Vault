@@ -1,396 +1,286 @@
 [
     {
-        "_id": "1",
-        "brand_name": "ShopMart BD",
+        "_id": 1,
+        "brand_name": "Daraz Bangladesh",
         "rating": 4.5,
-        "description": "ShopMart BD is the leading online marketplace in Bangladesh, offering a wide range of products from electronics to daily essentials.",
-        "brand_logo": "https://img.freepik.com/free-vector/gradient-instagram-shop-logo-template_23-2149704603.jpg?semt=ais_hybrid",
+        "description": "Daraz Bangladesh is a leading company in Bangladesh.",
+        "brand_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdyBxyKCAbGUiqQ03FizpwnaSKJ-6d_1MzA&s",
         "coupons": [
             {
-                "coupon_code": "SHOP10",
-                "description": "Get 10% off on all items",
-                "expiry_date": "2024-12-31",
-                "condition": "Minimum purchase of 1000 BDT",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON9393",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-02-07",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
             },
             {
-                "coupon_code": "SHOP20",
-                "description": "Get 20% off on electronics",
-                "expiry_date": "2024-12-15",
-                "condition": "Minimum purchase of 5000 BDT",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON8407",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-04",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             }
         ],
-        "shop_Link": "https://shopmartbd.com",
-        "category": "Marketplace",
-        "isSaleOn": true,
-        "total_coupons": "2"
+        "total_coupons": 2,
+        "shop_link": "https://www.darazbangladesh.com",
+        "category": "E-commerce",
+        "isSaleOn": false
     },
     {
-        "_id": "2",
-        "brand_name": "TechBazaar",
-        "rating": 4.2,
-        "description": "TechBazaar is a well-known e-commerce store in Bangladesh specializing in electronics and gadgets.",
-        "brand_logo": "https://i.ibb.co.com/PgLzfV4/Tech-Bazaar-Black-BG.jpg",
-        "coupons": [
-            {
-                "coupon_code": "TECH20",
-                "description": "20% discount on electronics",
-                "expiry_date": "2024-12-15",
-                "condition": "Applies only on items over 5000 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "TECH30",
-                "description": "30% off on accessories",
-                "expiry_date": "2024-11-30",
-                "condition": "Applies only to accessories",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "FREEDEL",
-                "description": "Free delivery on orders above 2000 BDT",
-                "expiry_date": "2024-12-31",
-                "condition": "Minimum order 2000 BDT",
-                "coupon_type": "delivery"
-            }
-        ],
-        "shop_Link": "https://techbazaarbd.com",
-        "category": "Electronics",
-        "isSaleOn": true,
-        "total_coupons": "3"
-    },
-    {
-        "_id": "3",
-        "brand_name": "FashionHub",
-        "rating": 4.6,
-        "description": "FashionHub is the ultimate destination for trendy and affordable fashion in Bangladesh.",
-        "brand_logo": "https://i.ibb.co.com/cYQG3Zv/images.jpg",
-        "coupons": [
-            {
-                "coupon_code": "STYLE15",
-                "description": "15% off on all clothing",
-                "expiry_date": "2024-12-10",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "FASH25",
-                "description": "25% off on winter wear",
-                "expiry_date": "2024-12-20",
-                "condition": "Applies to winter collections",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "NEWYEAR10",
-                "description": "10% off on New Year collections",
-                "expiry_date": "2025-01-05",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "FREESHIP",
-                "description": "Free shipping on all orders",
-                "expiry_date": "2024-12-31",
-                "condition": "No conditions apply",
-                "coupon_type": "delivery"
-            }
-        ],
-        "shop_Link": "https://fashionhubbd.com",
-        "category": "Clothing",
-        "isSaleOn": true,
-        "total_coupons": "4"
-    },
-    {
-        "_id": "4",
-        "brand_name": "HomePlus",
+        "_id": 2,
+        "brand_name": "bKash",
         "rating": 4.4,
-        "description": "HomePlus offers a variety of home goods, furniture, and decor at affordable prices.",
-        "brand_logo": "https://i.ibb.co.com/G9bLL0v/images-1.jpg",
+        "description": "bKash is a leading company in Bangladesh.",
+        "brand_logo": "https://i.ibb.co.com/6X8V5Yv/download-2.png",
         "coupons": [
             {
-                "coupon_code": "FURNI20",
-                "description": "20% off on furniture items",
-                "expiry_date": "2024-12-31",
-                "condition": "On orders above 5000 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "HOMEDECOR15",
-                "description": "15% off on home decor",
+                "coupon_code": "COUPON9611",
+                "description": "Get a special discount on your next purchase!",
                 "expiry_date": "2024-12-25",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             },
             {
-                "coupon_code": "LIGHTS10",
-                "description": "10% off on lighting fixtures",
-                "expiry_date": "2024-12-20",
-                "condition": "On orders above 3000 BDT",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON7475",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-12",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Buy One Get One"
+            },
+            {
+                "coupon_code": "COUPON4006",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-11",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
             }
         ],
-        "shop_Link": "https://homeplusbd.com",
-        "category": "Furniture",
-        "isSaleOn": true,
-        "total_coupons": "3"
+        "total_coupons": 3,
+        "shop_link": "https://www.bkash.com",
+        "category": "Finance",
+        "isSaleOn": false
     },
     {
-        "_id": "5",
-        "brand_name": "GroceriesBD",
-        "rating": 4.3,
-        "description": "GroceriesBD delivers fresh groceries and essentials to your doorstep.",
-        "brand_logo": "https://i.ibb.co.com/xSh9F6Q/modern-logo-vegetable-shopping-cart-260nw-2288900053.webp",
-        "coupons": [
-            {
-                "coupon_code": "GROCERY10",
-                "description": "10% off on groceries",
-                "expiry_date": "2024-12-15",
-                "condition": "Minimum purchase of 500 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "FRESH5",
-                "description": "5% off on fresh vegetables",
-                "expiry_date": "2024-12-20",
-                "condition": "Minimum purchase of 300 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "FRUIT10",
-                "description": "10% off on fruits",
-                "expiry_date": "2024-12-10",
-                "condition": "Minimum purchase of 200 BDT",
-                "coupon_type": "percentage"
-            }
-        ],
-        "shop_Link": "https://groceriesbd.com",
-        "category": "Groceries",
-        "isSaleOn": true,
-        "total_coupons": "3"
-    },
-    {
-        "_id": "6",
-        "brand_name": "BeautyShop BD",
+        "_id": 3,
+        "brand_name": "Pathao",
         "rating": 4.7,
-        "description": "BeautyShop BD offers a range of beauty products including skincare, makeup, and haircare.",
-        "brand_logo": "https://i.ibb.co.com/XWFH0wR/images.png",
+        "description": "Pathao is a leading company in Bangladesh.",
+        "brand_logo": "https://i.ibb.co.com/jr1TFx5/download-3.png",
         "coupons": [
             {
-                "coupon_code": "BEAUTY25",
-                "description": "25% off on selected beauty products",
-                "expiry_date": "2024-11-30",
-                "condition": "Selected products only",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON3381",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-18",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Free Shipping"
             },
             {
-                "coupon_code": "SKIN15",
-                "description": "15% off on skincare items",
-                "expiry_date": "2024-12-15",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "MAKEUP20",
-                "description": "20% off on makeup products",
-                "expiry_date": "2024-12-25",
-                "condition": "Applies to orders above 1000 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "HAIR10",
-                "description": "10% off on haircare products",
-                "expiry_date": "2024-12-05",
-                "condition": "Minimum purchase of 500 BDT",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON4958",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-19",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
             }
         ],
-        "shop_Link": "https://beautyshopbd.com",
-        "category": "Beauty",
-        "isSaleOn": true,
-        "total_coupons": "4"
+        "total_coupons": 2,
+        "shop_link": "https://www.pathao.com",
+        "category": "E-commerce",
+        "isSaleOn": true
     },
     {
-        "_id": "7",
-        "brand_name": "BookStore BD",
-        "rating": 4.5,
-        "description": "BookStore BD is the go-to place for books across various genres and languages.",
-        "brand_logo": "https://i.ibb.co.com/gDshx3Y/images-1.png",
+        "_id": 4,
+        "brand_name": "Grameenphone",
+        "rating": 4.1,
+        "description": "Grameenphone is a leading company in Bangladesh.",
+        "brand_logo": "https://i.ibb.co.com/SwDpzt5/download-4.png",
         "coupons": [
             {
-                "coupon_code": "BOOK15",
-                "description": "15% off on all books",
-                "expiry_date": "2024-12-31",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON5980",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-17",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             },
             {
-                "coupon_code": "READ10",
-                "description": "10% off on selected fiction books",
-                "expiry_date": "2024-12-15",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON7051",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-19",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Buy One Get One"
             },
             {
-                "coupon_code": "KIDS5",
-                "description": "5% off on children's books",
+                "coupon_code": "COUPON5029",
+                "description": "Get a special discount on your next purchase!",
                 "expiry_date": "2024-12-20",
-                "condition": "Minimum purchase of 300 BDT",
-                "coupon_type": "percentage"
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Free Shipping"
             }
         ],
-        "shop_Link": "https://bookstorebd.com",
-        "category": "Books",
-        "isSaleOn": true,
-        "total_coupons": "3"
+        "total_coupons": 3,
+        "shop_link": "https://www.grameenphone.com",
+        "category": "Telecommunication",
+        "isSaleOn": true
     },
     {
-        "_id": "8",
-        "brand_name": "SportsGear BD",
+        "_id": 5,
+        "brand_name": "Robi Axiata",
         "rating": 4.3,
-        "description": "SportsGear BD provides the latest sports equipment and gear.",
-        "brand_logo": "https://i.ibb.co.com/CQXfTrY/compressed-3ab54ea1a0c89207456815e80ac19427.webp",
+        "description": "Robi Axiata is a leading company in Bangladesh.",
+        "brand_logo": "https://i.ibb.co.com/nMMcDWj/download.jpg",
         "coupons": [
             {
-                "coupon_code": "SPORTS10",
-                "description": "10% off on all sports gear",
-                "expiry_date": "2024-12-05",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON8729",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-28",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
             },
             {
-                "coupon_code": "SPORTS15",
-                "description": "15% off on sports accessories",
-                "expiry_date": "2024-12-10",
-                "condition": "Minimum purchase of 500 BDT",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "TEAM20",
-                "description": "20% off on team sports equipment",
-                "expiry_date": "2024-12-25",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON1946",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-22",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             }
         ],
-        "shop_Link": "https://sportsgearbd.com",
-        "category": "Sports",
-        "isSaleOn": true,
-        "total_coupons": "3"
+        "total_coupons": 2,
+        "shop_link": "https://www.robi.com",
+        "category": "Telecommunication",
+        "isSaleOn": true
     },
     {
-        "_id": "9",
-        "brand_name": "PetShop BD",
-        "rating": 4.5,
-        "description": "PetShop BD offers pet supplies for all kinds of pets.",
-        "brand_logo": "https://i.ibb.co.com/rfzdX7P/pet-shop-logo-premium-elegant-template-eps-10-vector.jpg",
-        "coupons": [
-            {
-                "coupon_code": "PET5",
-                "description": "5% off on all pet supplies",
-                "expiry_date": "2024-12-01",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "PET10",
-                "description": "10% off on pet food",
-                "expiry_date": "2024-12-10",
-                "condition": "Minimum purchase of 200 BDT",
-                "coupon_type": "percentage"
-            }
-        ],
-        "shop_Link": "https://petshopbd.com",
-        "category": "Pets",
-        "isSaleOn": true,
-        "total_coupons": "2"
-    },
-    {
-        "_id": "10",
-        "brand_name": "GadgetWorld",
+        "_id": 6,
+        "brand_name": "Chaldal",
         "rating": 4.6,
-        "description": "GadgetWorld specializes in the latest tech gadgets and accessories.",
-        "brand_logo": "https://i.ibb.co.com/VqFrHKj/images-2.jpg",
+        "description": "Chaldal is a leading company in Bangladesh.",
+        "brand_logo": "https://i.ibb.co.com/V90pFr4/images-2.png",
         "coupons": [
             {
-                "coupon_code": "GADGET15",
-                "description": "15% off on selected gadgets",
-                "expiry_date": "2024-12-20",
-                "condition": "Selected items only",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON7832",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-10",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Free Shipping"
             },
             {
-                "coupon_code": "GADGET10",
-                "description": "10% off on all accessories",
+                "coupon_code": "COUPON6265",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-30",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Buy One Get One"
+            },
+            {
+                "coupon_code": "COUPON4134",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-20",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
+            }
+        ],
+        "total_coupons": 3,
+        "shop_link": "https://www.chaldal.com",
+        "category": "Grocery",
+        "isSaleOn": false
+    },
+    {
+        "_id": 7,
+        "brand_name": "Evaly",
+        "rating": 4.2,
+        "description": "Evaly is a leading company in Bangladesh.",
+        "brand_logo": "https://example.com/logos/evaly.png",
+        "coupons": [
+            {
+                "coupon_code": "COUPON3659",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-08",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
+            },
+            {
+                "coupon_code": "COUPON2351",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-18",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
+            }
+        ],
+        "total_coupons": 2,
+        "shop_link": "https://www.evaly.com",
+        "category": "E-commerce",
+        "isSaleOn": true
+    },
+    {
+        "_id": 8,
+        "brand_name": "Shohoz",
+        "rating": 4.0,
+        "description": "Shohoz is a leading company in Bangladesh.",
+        "brand_logo": "https://example.com/logos/shohoz.png",
+        "coupons": [
+            {
+                "coupon_code": "COUPON1982",
+                "description": "Get a special discount on your next purchase!",
                 "expiry_date": "2024-12-15",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "GADGET25",
-                "description": "25% off on selected smartwatches",
-                "expiry_date": "2024-12-10",
-                "condition": "Selected items only",
-                "coupon_type": "percentage"
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Free Shipping"
             }
         ],
-        "shop_Link": "https://gadgetworld.com",
-        "category": "Electronics",
-        "isSaleOn": false,
-        "total_coupons": "3"
+        "total_coupons": 1,
+        "shop_link": "https://www.shohoz.com",
+        "category": "Transportation",
+        "isSaleOn": false
     },
     {
-        "_id": "11",
-        "brand_name": "LuxuryJewels",
-        "rating": 4.8,
-        "description": "LuxuryJewels offers a wide range of high-end jewelry for all occasions.",
-        "brand_logo": "https://i.ibb.co.com/L9rfZrh/images-3.jpg",
+        "_id": 9,
+        "brand_name": "Shwapno",
+        "rating": 4.5,
+        "description": "Shwapno is a leading company in Bangladesh.",
+        "brand_logo": "https://example.com/logos/shwapno.png",
         "coupons": [
             {
-                "coupon_code": "JEWEL25",
-                "description": "25% off on all jewelry items",
-                "expiry_date": "2024-12-10",
-                "condition": "No conditions apply",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON9541",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-05",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Buy One Get One"
             },
             {
-                "coupon_code": "JEWEL10",
-                "description": "10% off on jewelry accessories",
-                "expiry_date": "2024-12-05",
-                "condition": "Minimum purchase of 1000 BDT",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON3826",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2024-12-25",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Percentage Discount"
+            },
+            {
+                "coupon_code": "COUPON5103",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-15",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             }
         ],
-        "shop_Link": "https://luxuryjewels.com",
-        "category": "Jewelry",
-        "isSaleOn": true,
-        "total_coupons": "2"
+        "total_coupons": 3,
+        "shop_link": "https://www.shwapno.com",
+        "category": "Retail",
+        "isSaleOn": true
     },
     {
-        "_id": "12",
-        "brand_name": "AutoShop BD",
-        "rating": 4.4,
-        "description": "AutoShop BD offers car accessories, spare parts, and maintenance services.",
-        "brand_logo": "https://i.ibb.co.com/mFw65sp/auto-style-car-logo-design-600nw-573374866.webp",
+        "_id": 10,
+        "brand_name": "AjkerDeal",
+        "rating": 4.1,
+        "description": "AjkerDeal is a leading company in Bangladesh.",
+        "brand_logo": "https://example.com/logos/ajkerdeal.png",
         "coupons": [
             {
-                "coupon_code": "AUTO10",
-                "description": "10% off on all car accessories",
-                "expiry_date": "2024-12-01",
-                "condition": "No minimum purchase required",
-                "coupon_type": "percentage"
-            },
-            {
-                "coupon_code": "AUTO15",
-                "description": "15% off on selected spare parts",
-                "expiry_date": "2024-12-10",
-                "condition": "Selected items only",
-                "coupon_type": "percentage"
+                "coupon_code": "COUPON6247",
+                "description": "Get a special discount on your next purchase!",
+                "expiry_date": "2025-01-02",
+                "condition": "Minimum purchase of 500 BDT required",
+                "coupon_type": "Flat Discount"
             }
         ],
-        "shop_Link": "https://autoshopbd.com",
-        "category": "Automotive",
-        "isSaleOn": false,
-        "total_coupons": "2"
+        "total_coupons": 1,
+        "shop_link": "https://www.ajkerdeal.com",
+        "category": "E-commerce",
+        "isSaleOn": false
     }
 ]

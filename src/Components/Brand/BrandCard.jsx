@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const BrandCard = ({ brand }) => {
 
-    const user = false;
+  const user = true;
   return (
-    <div className="card card-compact bg-base-100 w-96 border border-white/40 rounded-2xl  hover:shadow-lg hover:shadow-yellow-700 hover:scale-105 duration-300 transition all ease-out">
+    <div className="card card-compact bg-base-100 w-96 border border-white/40 rounded-2xl  hover:shadow-lg hover:shadow-[#201E43]">
       <figure className="p-2">
         <img
           src={brand.brand_logo}
@@ -57,8 +57,8 @@ const BrandCard = ({ brand }) => {
         </p>
         <div className="card-actions justify-start">
           <NavLink 
-          to={ user? '/': '/about'}
-          className="btn border-yellow-600 font-bold text-yellow-600 rounded-xl hover:bg-white hover:text-base transition duration-300 all ease-out my-5">View Coupon</NavLink>
+          to={ user? `/brand/${brand._id}`: '/about'}
+          className="btn border-2 border-[#134B70] bg-transparent hover:scale-105 transition ease-out duration-300 hover:text-base hover:bg-white text-[#134B70] font-bold rounded-lg hover:border-[#134B70] mb-6 mt-2">View Coupon</NavLink>
         </div>
       </div>
     </div>
