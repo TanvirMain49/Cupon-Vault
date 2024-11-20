@@ -11,3 +11,9 @@ font-Roboto {
   font-weight: 400;
   font-style: normal;
 }
+a.active{
+  background-color: #508C9B;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}

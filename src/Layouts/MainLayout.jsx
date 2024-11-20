@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import { Outlet } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 const MainLayout = () => {
     return (
@@ -9,6 +10,7 @@ const MainLayout = () => {
             <Header></Header>
            </header>
            <main className='w-11/12 mx-auto'><Outlet></Outlet></main>
+           <ToastContainer></ToastContainer>
         </div>
     );
 };

@@ -15,11 +15,11 @@ const TopBrand = ({ coupons }) => {
       <Marquee pauseOnHover="true" speed ="180">
         <div className="flex items-center gap-6 ">
           {coupons.map((coupon) => (
-            <NavLink to='/brand' className="flex flex-col justify-center items-center cursor-pointer grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+            <NavLink to='/brand' className="flex flex-col justify-center items-center cursor-pointer">
               <img
                 src={coupon.brand_logo}
                 alt=""
-                className="w-32 h-32 rounded-full border-2 border-yellow-500 p-2"
+                className="w-32 h-32 rounded-full border-2 border-[#508C9B] p-2"
               />
               <p className="font-bold text-lg text-center mx-7 mt-2">{coupon.brand_name}</p>
             </NavLink>

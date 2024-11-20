@@ -1,7 +1,23 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useContext } from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Header = () => {
+  const { user, signOutUser } = useContext(AuthContext);
+  console.log(user);
+  const location = useLocation();
+  console.log(location);
+  const handleSignOut = () => {
+    signOutUser()
+      .then(() => {
+        // Sign-out success logic
+        console.log('logOut successfully')
+      })
+      .catch((error) => {
+        // Error handling logic
+      });
+  };
+
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -30,33 +46,73 @@ const Header = () => {
               <NavLink>Home</NavLink>
               <NavLink>Brand</NavLink>
               <NavLink>About Dev</NavLink>
+              {user && <NavLink>About Dev</NavLink>}
             </ul>
           </div>
           <a className="text-2xl font-bold italic">CouponVault</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-4 font-semibold">
-            <NavLink to="/" className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200">
+            <NavLink
+              to="/"
+              className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200"
+            >
               Home
             </NavLink>
 
-            <NavLink to="/brand" className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200">
+            <NavLink
+              to="/brand"
+              className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+            >
               Brand
             </NavLink>
 
-            <NavLink className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200">
+            <NavLink
+              to="/aboutDev"
+              className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+            >
               About Dev
             </NavLink>
+            {user && (
+              <NavLink
+                to="/profile"
+                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+              >
+                My Profile
+              </NavLink>
+            )}
           </ul>
         </div>
-        <div className="navbar-end space-x-6">
-          <NavLink to="/login" className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg">
-            Log in
-          </NavLink>
-          <NavLink to="/register" className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]">
-            Register
-          </NavLink>
-        </div>
+
+        {user ? (
+          <div className="navbar-end items-center space-x-6">
+            <div className="flex justify-center items-center gap-0">
+              <img src={user.photoURL} alt="" className="w-12 h-12 rounded-full border-2 border-white p-2"/>
+              <p className="text-sm text-white border-r-2 border-y-2 border-white rounded-xl py-1 pr-2 pl-1 font-bold">{user.email}</p>
+            </div>
+            <button
+              onClick={handleSignOut}
+              className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]"
+            >
+              Log out
+            </button>
+          </div>
+        ) : (
+          <div className="navbar-end space-x-6">
+            <NavLink
+              to="/login"
+              className="btn bg-[#134B70]  hover:scale-105 hover:text-base transition ease-out duration-300 hover:bg-[#508C9B] text-white font-bold rounded-lg"
+            >
+              Log in
+            </NavLink>
+            <NavLink
+              to="/register"
+              className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B]"
+            >
+              Register
+            </NavLink>
+          </div>
+        )}
       </div>
     </div>
   );
