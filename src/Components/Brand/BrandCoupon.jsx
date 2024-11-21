@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
-import { NavLink, useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import Coupon from "./Coupon";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 
 const BrandCoupon = () => {
   const brands = useLoaderData(); 
   const params = useParams();
-  console.log(brands);
-
   const singleBrand = brands.find(brand => brand._id === Number(params.id));
-  console.log(singleBrand)
-  console.log(singleBrand.coupons)
-
 
   // Destructure singleBrand for convenience
    const { brand_name, brand_logo, description, rating, coupons, shop_link } = singleBrand;
@@ -30,9 +25,9 @@ const BrandCoupon = () => {
           your favorite products with our exclusive coupons. Copy the code and
           start saving instantly!
         </p>
-        <NavLink to="/brand" className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B] mt-6">
+        <Link to="/brand" className="btn bg-[#134B70] hover:scale-105 transition ease-out duration-300 hover:text-base text-white font-bold rounded-lg hover:bg-[#508C9B] mt-6">
             <FaArrowAltCircleLeft/> All Brand 
-          </NavLink>
+          </Link>
       </div>
 
       {/* company log */}

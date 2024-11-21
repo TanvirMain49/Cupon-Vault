@@ -9,7 +9,6 @@ const UpdateUser = () => {
         e.preventDefault();
         const name = e.target.newName.value;
         const photoURL = e.target.newPhotoURL.value;
-        console.log(name, photoURL)
 
         updatePfp({displayName:name,  photoURL: photoURL})
         .then(() => {

@@ -35,10 +35,10 @@ const Register = () => {
     // function that create user
     createUser(email, password)
       .then((res) => {
-        console.log("User created:", res.user);
         setUser(res.user);
         updatePfp({ displayName: name, photoURL: photoURL })
           .then((res) => {
+            toast.success('Log in successfully')
             navigate("/");
           })
           .catch((error) => {
