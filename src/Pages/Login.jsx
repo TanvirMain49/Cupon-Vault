@@ -1,12 +1,16 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { FaGoogle } from "react-icons/fa6";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { FaEye } from "react-icons/fa";
+import { RiEyeCloseFill } from "react-icons/ri";
+import { RxEyeOpen } from "react-icons/rx";
 
 const Login = () => {
 
-  const {logIn, signInWithGoogle, setUser} = useContext(AuthContext);
+  const {logIn, signInWithGoogle, setUser, setForgetEmail} = useContext(AuthContext);
   const [error, setError] = useState(null);
+  const [eye, setEye] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -14,6 +18,7 @@ const Login = () => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
+    setForgetEmail(email);
 
     logIn(email, password)
     .then(res =>{
@@ -38,8 +43,16 @@ const Login = () => {
     })
   }
 
+  const handleEmail=(e) =>{
+      setForgetEmail(e.target.value);
+  }
+
+  const handleShowPassword = () =>{
+      setEye(!eye)
+  }
+
   return (
-    <div className="md:max-w-screen flex gap-10 py-20 mx-auto md:ml-20 bg-[#201E43]">
+    <div className="md:max-w-screen flex gap-10 py-20 md:px-0 px-4 md:mx-auto md:ml-20 bg-[#201E43]">
       <img
         src="https://i.ibb.co.com/vY9P8XP/Computer-login-bro-2.png"
         alt=""
@@ -49,7 +62,7 @@ const Login = () => {
 
       {/* from start */}
       <div className="login">
-        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 md:mx-0 md:mt-10 mx-4">
+        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 md:mx-0 md:mt-10 mx-4">
           <form onSubmit={handleLogIn} className="card-body">
             <div className="form-control">
               <label className="label">
@@ -59,28 +72,40 @@ const Login = () => {
                 type="email"
                 placeholder="email"
                 name="email"
+                onChange={handleEmail}
                 className="input input-bordered bg-white/15"
                 required
               />
             </div>
-            <div className="form-control">
+            <div className="form-control relative">
               <label className="label">
                 <span className="label-text font-bold">Password</span>
               </label>
               <input
-                type="password"
+                type={
+                  eye? "text" : "password"
+                }
                 placeholder="password"
                 name="password"
                 className="input input-bordered bg-white/15"
                 required
               />
+              {
+                eye ? <button onClick={handleShowPassword} type="button" className="absolute right-3 top-[54px] text-sm cursor-pointer">
+                <RxEyeOpen />
+              </button> : 
+              <button onClick={handleShowPassword} type="button" className="absolute right-3 top-[54px] text-sm cursor-pointer">
+              <RiEyeCloseFill />
+              </button>
+              }
+              
               <label className="label">
-                <a
-                  href="#"
+                <Link
+                  to='/login/forgetPassword'
                   className="label-text-alt link link-hover font-bold"
                 >
                   Forgot password?
-                </a>
+                </Link>
               </label>
               {
                 error && <p className="text-error font-bold my-2 text-center">{error}</p>

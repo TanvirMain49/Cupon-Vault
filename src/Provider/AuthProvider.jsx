@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
+import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import React, { createContext, useEffect, useState } from 'react';
 import auth from '../FireBase/FireBase.init';
 import { useSwiperSlide } from 'swiper/react';
@@ -8,6 +8,8 @@ const AuthProvider = ({children}) => {
      // State to hold the current authenticated user
     const [user, setUser] = useState(null);
     const[loader, setLoader] = useState(true);
+    const [forgetEmail, setForgetEmail] = useState(null);
+    console.log(forgetEmail);
     console.log(user);
 
     // function to create user
@@ -48,6 +50,11 @@ const AuthProvider = ({children}) => {
         return signOut(auth);
     }
 
+    // forget password
+    const forgetPassword = (email) =>{
+        return sendPasswordResetEmail(auth, email);
+    } 
+
     const authInfo = {
         createUser,
         signOutUser,
@@ -55,6 +62,9 @@ const AuthProvider = ({children}) => {
         logIn,
         signInWithGoogle,
         setUser,
+        setForgetEmail,
+        forgetEmail,
+        forgetPassword,
         user,
         loader
     }

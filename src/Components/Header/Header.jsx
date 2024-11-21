@@ -110,7 +110,7 @@ const Header = () => {
 
         {user ? (
           <div className="navbar-end items-center md:space-x-6 md:ml-0">
-            <div className="flex justify-center items-center gap-0 ">
+            <NavLink to="/login" className="flex justify-center items-center gap-0 ">
               <img
                 src={user.photoURL}
                 alt=""
@@ -119,7 +119,7 @@ const Header = () => {
               <p className="text-sm text-white border-r-2 border-y-2 border-white rounded-xl py-1 pr-2 pl-1 font-bold lg:block hidden">
                 {user.email}
               </p>
-            </div>
+            </NavLink>
             <button
               onClick={handleSignOut}
               className="btn bg-[#134B70] md:hover:scale-105 transition ease-out duration-300 md:hover:text-base text-white font-bold rounded-lg md:hover:bg-[#508C9B] md:mr-0 mr-3"

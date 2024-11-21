@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Coupon = ({ coupon, shop_link }) => {
+  const {loader} = useContext(AuthContext);
   const [copy, setCopy] = useState(false);
+  if(loader){
+    return <span className="loading loading-spinner text-info text-center"></span>
+}
 
   return (
     <div>

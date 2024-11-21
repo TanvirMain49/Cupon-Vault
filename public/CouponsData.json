@@ -3,7 +3,7 @@
         "_id": 1,
         "brand_name": "Daraz Bangladesh",
         "rating": 4.5,
-        "description": "Daraz Bangladesh is a leading company in Bangladesh.",
+        "description": "Daraz Bangladesh is the largest online marketplace in Bangladesh, offering a wide range of products from electronics to fashion at competitive prices.",
         "brand_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdyBxyKCAbGUiqQ03FizpwnaSKJ-6d_1MzA&s",
         "coupons": [
             {
@@ -30,7 +30,7 @@
         "_id": 2,
         "brand_name": "bKash",
         "rating": 4.4,
-        "description": "bKash is a leading company in Bangladesh.",
+        "description": "bKash is the most popular mobile financial service provider in Bangladesh, simplifying digital payments for millions.",
         "brand_logo": "https://i.ibb.co.com/6X8V5Yv/download-2.png",
         "coupons": [
             {
@@ -64,7 +64,7 @@
         "_id": 3,
         "brand_name": "Pathao",
         "rating": 4.7,
-        "description": "Pathao is a leading company in Bangladesh.",
+        "description": "Pathao is a leading ride-sharing and logistics platform in Bangladesh, making transportation and delivery easy and affordable.",
         "brand_logo": "https://i.ibb.co.com/jr1TFx5/download-3.png",
         "coupons": [
             {
@@ -91,7 +91,7 @@
         "_id": 4,
         "brand_name": "Grameenphone",
         "rating": 4.1,
-        "description": "Grameenphone is a leading company in Bangladesh.",
+        "description": "Grameenphone is the largest telecommunications operator in Bangladesh, providing reliable network services nationwide.",
         "brand_logo": "https://i.ibb.co.com/SwDpzt5/download-4.png",
         "coupons": [
             {
@@ -125,7 +125,7 @@
         "_id": 5,
         "brand_name": "Robi Axiata",
         "rating": 4.3,
-        "description": "Robi Axiata is a leading company in Bangladesh.",
+        "description": "Robi Axiata is a top telecommunications provider in Bangladesh, known for innovative mobile solutions.",
         "brand_logo": "https://i.ibb.co.com/nMMcDWj/download.jpg",
         "coupons": [
             {
@@ -152,7 +152,7 @@
         "_id": 6,
         "brand_name": "Chaldal",
         "rating": 4.6,
-        "description": "Chaldal is a leading company in Bangladesh.",
+        "description": "Chaldal is Bangladesh's largest online grocery store, delivering fresh essentials right to your doorstep.",
         "brand_logo": "https://i.ibb.co.com/V90pFr4/images-2.png",
         "coupons": [
             {
@@ -186,7 +186,7 @@
         "_id": 7,
         "brand_name": "Evaly",
         "rating": 4.2,
-        "description": "Evaly is a leading company in Bangladesh.",
+        "description": "Evaly offers a unique online shopping experience with exciting flash sales and exclusive deals.",
         "brand_logo": "https://i.ibb.co.com/mcLkCVc/download-7.png",
         "coupons": [
             {
@@ -213,7 +213,7 @@
         "_id": 8,
         "brand_name": "Shohoz",
         "rating": 4.0,
-        "description": "Shohoz is a leading company in Bangladesh.",
+        "description": "Shohoz simplifies travel and entertainment booking in Bangladesh, offering hassle-free services for bus and movie tickets.",
         "brand_logo": "https://i.ibb.co.com/w6Qqzd9/download-9.png",
         "coupons": [
             {
@@ -233,7 +233,7 @@
         "_id": 9,
         "brand_name": "Shwapno",
         "rating": 4.5,
-        "description": "Shwapno is a leading company in Bangladesh.",
+        "description": "Shwapno is a trusted retail chain in Bangladesh, known for its quality groceries and home essentials.",
         "brand_logo": "https://i.ibb.co.com/VqZg90w/download-10.png",
         "coupons": [
             {
@@ -267,7 +267,7 @@
         "_id": 10,
         "brand_name": "AjkerDeal",
         "rating": 4.1,
-        "description": "AjkerDeal is a leading company in Bangladesh.",
+        "description": "AjkerDeal is one of the pioneering e-commerce platforms in Bangladesh, connecting small sellers with customers.",
         "brand_logo": "https://i.ibb.co.com/8MVhKbk/download-11.png",
         "coupons": [
             {

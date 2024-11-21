@@ -36,7 +36,7 @@ const BrandCoupon = () => {
       </div>
 
       {/* company log */}
-      <div className="flex justify-center items-center gap-5 md:py-10 py-7">
+      <div className="md:w-[50%] mx-auto flex justify-center items-center gap-5 md:py-10 py-7">
         <img src={brand_logo} alt="" className="w-32 h-32"/>
         <div  className="border-l-2 border-white font-bold pl-4 h-full">
             <h3 className="text-2xl"> {brand_name}</h3>
