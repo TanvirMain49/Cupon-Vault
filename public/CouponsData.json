@@ -24,7 +24,7 @@
         "total_coupons": 2,
         "shop_link": "https://www.darazbangladesh.com",
         "category": "E-commerce",
-        "isSaleOn": false
+        "isSaleOn": true
     },
     {
         "_id": 2,
@@ -58,7 +58,7 @@
         "total_coupons": 3,
         "shop_link": "https://www.bkash.com",
         "category": "Finance",
-        "isSaleOn": false
+        "isSaleOn": true
     },
     {
         "_id": 3,
@@ -180,7 +180,7 @@
         "total_coupons": 3,
         "shop_link": "https://www.chaldal.com",
         "category": "Grocery",
-        "isSaleOn": false
+        "isSaleOn": true
     },
     {
         "_id": 7,
@@ -227,7 +227,7 @@
         "total_coupons": 1,
         "shop_link": "https://www.shohoz.com",
         "category": "Transportation",
-        "isSaleOn": false
+        "isSaleOn": true
     },
     {
         "_id": 9,
@@ -281,6 +281,6 @@
         "total_coupons": 1,
         "shop_link": "https://www.ajkerdeal.com",
         "category": "E-commerce",
-        "isSaleOn": false
+        "isSaleOn": true
     }
 ]

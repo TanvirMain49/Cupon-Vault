@@ -58,11 +58,11 @@ const Login = () => {
         alt=""
         className="w-[45%] md:ml-12 md:block hidden"
       />
-      <div className="border border-white md:block hidden"></div>
+      <div className="border border-white lg:block md:hidden hidden"></div>
 
       {/* from start */}
       <div className="login">
-        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 md:mx-0 md:mt-10 mx-4">
+        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 lg:mx-0 md:mt-10 mx-4">
           <form onSubmit={handleLogIn} className="card-body">
             <div className="form-control">
               <label className="label">

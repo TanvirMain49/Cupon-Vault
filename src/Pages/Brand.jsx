@@ -8,10 +8,10 @@ const Brand = () => {
   return (
     <div className="font-Roboto">
       <div data-aos="fade-right" className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white">
-        <h1 className="md:text-5xl text-3xl font-bold text-center">
+        <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-center">
           Explore Top Brands and Their Exciting Offers
         </h1>
-        <p className="md:text-base text-sm text-center pt-6 md:px-80 px-1">
+        <p className="md:text-base text-sm text-center pt-6 lg:px-80 md:px-32 px-1">
           Discover exclusive deals and irresistible discounts from your favorite
           brands. Dive into a world of savings and make every shopping
           experience rewarding!
@@ -26,7 +26,7 @@ const Brand = () => {
           </button>
         </div>
       </div>
-      <h1 className="text-4xl font-bold md:mt-20 mt-10 md:ml-10 mb-12 text-center md:px-96 ">Save more with  <span className="text-[#508C9B]">curated coupons</span> for <span className="text-[#508C9B]">top brands</span></h1>
+      <h1 className="text-4xl font-bold md:mt-20 mt-10 md:ml-10 mb-12 text-center lg:px-96 md:px-32 ">Save more with  <span className="text-[#508C9B]">curated coupons</span> for <span className="text-[#508C9B]">top brands</span></h1>
       <div
         className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 md:ml-9 pb-20 pt-4
             "

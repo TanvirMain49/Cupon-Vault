@@ -5,7 +5,7 @@ const Reviews = () => {
 <section class="md:py-10 py-5">
   <div class="container mx-auto px-6">
     <h2 class="text-4xl font-bold text-center md:mb-16 mb-8">What <span className='text-[#508C9B]'> Our Customers</span> Say</h2>
-    <div class="grid gap-6 md:grid-cols-3">
+    <div class="grid gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
       
       {/* cart 1 */}
       <div class="p-6 rounded-lg shadow-md border border-gray-500">

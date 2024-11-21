@@ -165,7 +165,7 @@ const Register = () => {
       <img
         src="https://i.ibb.co.com/cNDbpC8/Tablet-login-amico.png"
         alt=""
-        className="w-[45%] ml-4 md:block hidden"
+        className="w-[45%] ml-4 md:hidden lg:block hidden"
       />
 
 
