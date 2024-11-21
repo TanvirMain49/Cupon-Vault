@@ -5,7 +5,7 @@ import banner2 from "../../assets/banner3.jpg"
 
 const Slider = () => {
   return (
-    <div className="carousel w-full rounded-xl md:h-screen object-cover md:py-8">
+    <div data-aos="zoom-in-down" className="carousel w-full rounded-xl md:h-screen object-cover md:py-8">
   <div id="slide1" className="carousel-item relative w-full ">
   <video
       src="https://media.istockphoto.com/id/1124580988/video/sale-discount-animation.mp4?s=mp4-640x640-is&k=20&c=2zkbq3ujo3KveLEviCLhbTiIH9C7fAaCpABvuZvHoek="

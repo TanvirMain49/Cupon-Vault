@@ -12,11 +12,11 @@ const HomeLayout = () => {
   return (
     <div className="font-Roboto">
       {/* title start*/}
-      <div className="title md:mb-0 mb-8">
+      <div className="title md:mb-0 mb-8 animate__animated animate__backInLeft">
         {user ? (
           <>
             <div className="text-center md:text-5xl text-3xl font-bold text-white mt-5">
-              Welcome, <span className="text-[#201E43]"> {user.displayName}</span>
+              Welcome, <span className="text-[#508C9B]"> {user.displayName}</span>
             </div>
             <p className="text-center md:text-base text-sm text-gray-500 mt-4 md:px-44 px-2">
             Explore the latest deals and discounts tailored just for you. Start saving today with your exclusive offers!

@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="w-full bg-[#201E43] md:py-24 py-16 px-6 flex justify-center items-center rounded-3xl text-white relative">
+        <div data-aos="fade-left" className="w-full bg-[#201E43] md:py-24 py-16 px-6 flex justify-center items-center rounded-3xl text-white relative">
             <div className="max-w-5xl w-full">
                 {/* Section Header */}
                 <div className="text-center mb-12">

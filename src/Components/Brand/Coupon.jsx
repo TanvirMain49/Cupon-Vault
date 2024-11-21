@@ -2,16 +2,16 @@ import React, { useContext, useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Coupon = ({ coupon, shop_link }) => {
   const {loader} = useContext(AuthContext);
-  const [copy, setCopy] = useState(false);
   if(loader){
     return <span className="loading loading-spinner text-info text-center"></span>
 }
 
   return (
-    <div>
+    <div data-aos="zoom-out">
       <div className="container">
         <div className="bg-[#508C9B] text-white text-center py-10 px-11 rounded-lg shadow-md relative">
           <h3 className="text-2xl text-start font-semibold mb-2 whitespace-wrap">
@@ -29,7 +29,11 @@ const Coupon = ({ coupon, shop_link }) => {
             {/* copy button */}
             <CopyToClipboard
               text={coupon.coupon_code}
-              onCopy={() => setCopy(true)}
+              onCopy={() => {
+                // toast.success("Coupon Code Copied!");
+                toast.success('Coupon Code Copied!');
+              }}
+              
             >
               <button className="btn border-2 border-[#134B70] bg-transparent hover:scale-105 transition ease-out duration-300 hover:text-base hover:bg-white text-[#134B70] font-bold rounded-lg hover:border-[#134B70]">
                 Copy Code
@@ -41,11 +45,11 @@ const Coupon = ({ coupon, shop_link }) => {
             </NavLink>
           </div>
           {/* if coupon copied then it wil show the text */}
-          {copy && (
+          {/* {copy && (
             <p className="text-green-500 text-start font-semibold text-sm mt-1 mb-4">
               Coupon Code Copied!
             </p>
-          )}
+          )} */}
           <p className="text-base font-bold text-start mt-8">
             Valid Till: {coupon.expiry_date}
           </p>

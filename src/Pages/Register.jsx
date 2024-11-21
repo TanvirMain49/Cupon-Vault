@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-import { Flip, toast } from "react-toastify";
 import { FaGoogle } from "react-icons/fa";
 import { RiEyeCloseFill } from "react-icons/ri";
 import { RxEyeOpen } from "react-icons/rx";
+import toast from "react-hot-toast";
 
 const Register = () => {
   const { createUser, setUser, updatePfp, signInWithGoogle } =
@@ -46,18 +46,7 @@ const Register = () => {
           });
       })
       .catch((error) => {
-        setError(error.code);
-        toast.error("Registration failed. Please try again.", {
-          position: "top-center",
-          autoClose: 1300,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-          transition: Flip,
-        });
+        toast.error(error.code)
       });
 
     };

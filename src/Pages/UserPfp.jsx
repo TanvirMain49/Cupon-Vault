@@ -6,7 +6,7 @@ import { FaArrowAltCircleLeft } from "react-icons/fa";
 const UserPfp = () => {
   const { user } = useContext(AuthContext);
   return (
-      <div className="w-full bg-[#201E43] md:py-24 flex flex-col justify-center items-center rounded-3xl text-white relative">
+      <div data-aos="fade-left" className="w-full bg-[#201E43] md:py-24 flex flex-col justify-center items-center rounded-3xl text-white relative">
         <h1 className="md:text-3xl text-xl md:pt-6 pt-6 font-bold text-center">
           Hello, {user.displayName}! We're glad to have you here!
         </h1>

@@ -43,64 +43,46 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <NavLink
-                to="/"
-                className="btn-ghost p-2 rounded-sm hover:scale-125 transition-all ease-in-out duration-200"
-              >
-                Home
-              </NavLink>
-
-              <NavLink
-                to="/brand"
-                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
-              >
-                Brand
-              </NavLink>
-
-              <NavLink
-                to="/aboutDev"
-                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
-              >
-                About Dev
-              </NavLink>
-              {user && (
-                <NavLink
-                  to="/profile"
-                  className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
-                >
-                  My Profile
-                </NavLink>
-              )}
-            </ul>
-          </div>
-          <a className="md:text-2xl font-bold italic">CouponVault</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 space-x-4 font-semibold">
-            <NavLink
-              to="/"
-              className="btn-ghost p-2 rounded-sm"
-            >
+              <NavLink to="/" className="btn-ghost p-2 rounded-sm">
               Home
             </NavLink>
 
-            <NavLink
-              to="/brand"
-              className="btn-ghost p-2 r"
-            >
+            <NavLink to="/brand" className="btn-ghost p-2 r">
               Brand
             </NavLink>
 
-            <NavLink
-              to="/aboutDev"
-              className="btn-ghost p-2"
-            >
+            <NavLink to="/aboutDev" className="btn-ghost p-2">
               About Dev
             </NavLink>
             {user && (
               <NavLink
                 to="/profile"
-                className="btn-ghost p-2 rounded-sm hover:scale-125  transition-all ease-in-out duration-200"
+                className="btn-ghost p-2 rounded-sm"
+              >
+                My Profile
+              </NavLink>
+            )}
+            </ul>
+          </div>
+          <a className="md:text-2xl font-bold italic">CouponVault</a>
+        </div>
+        <div className="navbar-center hidden lg:flex ">
+          <ul className="menu menu-horizontal px-1 space-x-4 font-semibold">
+            <NavLink to="/" className="btn-ghost p-2 rounded-sm">
+              Home
+            </NavLink>
+
+            <NavLink to="/brand" className="btn-ghost p-2">
+              Brand
+            </NavLink>
+
+            <NavLink to="/aboutDev" className="btn-ghost p-2">
+              About Dev
+            </NavLink>
+            {user && (
+              <NavLink
+                to="/profile"
+                className="btn-ghost p-2"
               >
                 My Profile
               </NavLink>
@@ -110,7 +92,10 @@ const Header = () => {
 
         {user ? (
           <div className="navbar-end items-center md:space-x-6 md:ml-0">
-            <NavLink to="/login" className="flex justify-center items-center gap-0 ">
+            <NavLink
+              to="/login"
+              className="flex justify-center items-center gap-0 "
+            >
               <img
                 src={user.photoURL}
                 alt=""

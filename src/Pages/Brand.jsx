@@ -5,10 +5,9 @@ import BrandCard from "../Components/Brand/BrandCard";
 
 const Brand = () => {
   const brands = useLoaderData();
-  console.log(brands);
   return (
     <div className="font-Roboto">
-      <div className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white">
+      <div data-aos="fade-right" className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white">
         <h1 className="md:text-5xl text-3xl font-bold text-center">
           Explore Top Brands and Their Exciting Offers
         </h1>
