@@ -8,6 +8,7 @@ import BrandCoupon from "../Components/Brand/BrandCoupon";
 import PrivetRoute from "./PrivetRoute";
 import About from "../Pages/About";
 import UserPfp from "../Pages/UserPfp";
+import ErrorPage from "../Pages/ErrorPage";
 
 const route = createBrowserRouter([
     {
@@ -53,6 +54,10 @@ const route = createBrowserRouter([
             },
         ]
     },
+    {
+        path:'*',
+        element:<ErrorPage></ErrorPage>
+    }
 ])
 
 export default route;

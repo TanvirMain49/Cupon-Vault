@@ -1,11 +1,13 @@
 import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import React, { createContext, useEffect, useState } from 'react';
 import auth from '../FireBase/FireBase.init';
+import { useSwiperSlide } from 'swiper/react';
 export const AuthContext = createContext();
 
 const AuthProvider = ({children}) => {
      // State to hold the current authenticated user
-    const [user, setUser] = useState(null)
+    const [user, setUser] = useState(null);
+    const[loader, setLoader] = useState(true);
     console.log(user);
 
     // function to create user
@@ -34,6 +36,7 @@ const AuthProvider = ({children}) => {
     useEffect(()=>{
         const unsubscribe = onAuthStateChanged(auth, currentUser =>{
             setUser(currentUser);
+            setLoader(false);
         })
         return ()=>{
             unsubscribe();
@@ -52,7 +55,8 @@ const AuthProvider = ({children}) => {
         logIn,
         signInWithGoogle,
         setUser,
-        user
+        user,
+        loader
     }
     return (
         <AuthContext.Provider value={authInfo}>
