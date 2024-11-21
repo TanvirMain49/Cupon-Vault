@@ -39,18 +39,17 @@ const Login = () => {
   }
 
   return (
-    <div className="md:max-w-screen flex gap-8 py-20 mx-auto bg-[#201E43]">
+    <div className="md:max-w-screen flex gap-10 py-20 mx-auto md:ml-20 bg-[#201E43]">
       <img
         src="https://i.ibb.co.com/vY9P8XP/Computer-login-bro-2.png"
         alt=""
-        className="w-[45%] md:block hidden"
+        className="w-[45%] md:ml-12 md:block hidden"
       />
-      <div className="divider divider-accent divider-horizontal text-white md:block hidden"></div>
+      <div className="border border-white md:block hidden"></div>
 
       {/* from start */}
       <div className="login">
-        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 md:mx-0 mx-4">
-
+        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 md:mx-0 md:mt-10 mx-4">
           <form onSubmit={handleLogIn} className="card-body">
             <div className="form-control">
               <label className="label">

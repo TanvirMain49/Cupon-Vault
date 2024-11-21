@@ -58,9 +58,9 @@ const Register = () => {
 
     }
     return (
-        <div className="md:max-w-screen flex gap-8 py-20 mx-auto bg-[#201E43]">
+        <div className="md:max-w-screen flex md:gap-20 py-20 mx-auto bg-[#201E43]">
         {/* from start */}
-        <div className="login md:ml-28 ml-4">
+        <div className="login md:ml-28 ml-4 md:mt-12">
           <div className="card md:w-full md:max-w-sm bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:mr-24">
             <form onSubmit={handleRegister} className="card-body">
               <div className="form-control">
@@ -130,12 +130,12 @@ const Register = () => {
           </p>
         </div>
 
-        <div className="divider divider-accent divider-horizontal text-white md:block hidden"></div>
+        <div className="border border-white md:ml-7 md:block hidden"></div>
 
         <img
           src="https://i.ibb.co.com/cNDbpC8/Tablet-login-amico.png"
           alt=""
-          className="w-[45%] ml-12 md:block hidden"
+          className="w-[45%] ml-4 md:block hidden"
         />
 
       </div>
