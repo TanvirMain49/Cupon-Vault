@@ -10,7 +10,7 @@
 ---
 
 ## 🎯 Project Overview  
-E-commerce stores often provide various types of vouchers and coupon codes for discounts. However, finding all these coupons can be tedious. **Discount PRO** collects and organizes all available coupons for popular stores, making it easy for users to:  
+E-commerce stores often provide various types of vouchers and coupon codes for discounts. However, finding all these coupons can be tedious. **CouponVault** collects and organizes all available coupons for popular stores, making it easy for users to:  
 - Browse discounts from different brands.  
 - View details such as discount amount, expiry date, and applicable product categories.  
 - Copy coupon codes with just one click.  
