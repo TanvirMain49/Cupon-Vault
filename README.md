@@ -5,7 +5,7 @@
 
 ## 🌐 Live URL  
 [Discount PRO Live](https://coupon-vault.web.app/)  
-(Replace with the actual live URL once deployed)
+([https://coupon-vault.web.app/](https://coupon-vault.web.app/))
 
 ---
 
