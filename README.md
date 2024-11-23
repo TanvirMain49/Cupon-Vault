@@ -45,7 +45,7 @@ This project aims to provide a seamless experience for users, helping them save 
 - **Animate.css**: A library for cross-browser CSS animations.  
 - **React Icons**: A collection of popular icons for React projects.  
 - **Toastify**: For customizable and beautiful toast notifications.
-- **react-copy-to-clipboard **  
+- **React Copy to Clipboard**: For enabling text copy functionality with ease. 
 
 ---
 

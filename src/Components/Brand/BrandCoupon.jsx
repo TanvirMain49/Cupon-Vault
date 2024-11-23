@@ -15,7 +15,7 @@ const BrandCoupon = () => {
   return (
     <div>
       {/* Banner Section */}
-      <div className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white mb-14">
+      <div data-aos="zoom-in-up" className="w-full bg-[#201E43] md:py-24 py-12 flex flex-col justify-center items-center rounded-3xl text-white mb-14">
         <h1 className="md:text-5xl text-3xl font-bold text-center">
           Exclusive Coupons for{" "}
           <span className="text-[#7ab9f5]"> {brand_name}</span>
@@ -31,7 +31,7 @@ const BrandCoupon = () => {
       </div>
 
       {/* company log */}
-      <div className="md:w-[50%] mx-auto flex justify-center items-center gap-5 md:py-10 py-7">
+      <div data-aos="zoom-in-left" className="md:w-[50%] mx-auto flex justify-center items-center gap-5 md:py-10 py-7">
         <img src={brand_logo} alt="" className="w-32 h-32"/>
         <div  className="border-l-2 border-white font-bold pl-4 h-full">
             <h3 className="text-2xl"> {brand_name}</h3>

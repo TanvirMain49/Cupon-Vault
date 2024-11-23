@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div data-aos="fade-left" className="w-full bg-[#201E43] md:py-24 py-16 px-6 flex justify-center items-center rounded-3xl text-white relative">
+        <div data-aos="fade-up" className="w-full bg-[#201E43] md:py-24 py-16 px-6 flex justify-center items-center rounded-3xl text-white relative">
             <div className="max-w-5xl w-full">
                 {/* Section Header */}
                 <div className="text-center mb-12">
@@ -13,7 +13,7 @@ const About = () => {
                 </div>
 
                 {/* Main Content */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white/10 backdrop-blur-lg shadow-lg rounded-lg border-2 border-white/20 md:p-12 p-6">
+                <div data-aos="zoom-in" className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white/10 backdrop-blur-lg shadow-lg rounded-lg border-2 border-white/20 md:p-12 p-6">
                     {/* Left Side */}
                     <div className="flex flex-col items-center md:items-start text-center md:text-left">
                         <img

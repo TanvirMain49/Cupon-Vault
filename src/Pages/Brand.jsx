@@ -26,7 +26,7 @@ const Brand = () => {
           </button>
         </div>
       </div>
-      <h1 className="text-4xl font-bold md:mt-20 mt-10 md:ml-10 mb-12 text-center lg:px-96 md:px-32 ">Save more with  <span className="text-[#508C9B]">curated coupons</span> for <span className="text-[#508C9B]">top brands</span></h1>
+      <h1 data-aos="flip-up" data-aos-delay="300" className="text-4xl font-bold md:mt-20 mt-10 md:ml-10 mb-12 text-center lg:px-96 md:px-32 ">Save more with  <span className="text-[#508C9B]">curated coupons</span> for <span className="text-[#508C9B]">top brands</span></h1>
       <div
         className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 md:ml-9 pb-20 pt-4
             "

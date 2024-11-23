@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const ForgetPassword = () => {
   const { forgetEmail, setForgetEmail, forgetPassword, signOutUser } =
-    useContext(AuthContext);
+  useContext(AuthContext);
   const navigate = useNavigate();
 
 

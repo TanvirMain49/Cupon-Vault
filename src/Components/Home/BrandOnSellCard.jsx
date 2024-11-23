@@ -3,11 +3,13 @@ import { FaStar } from "react-icons/fa";
 
 const BrandOnSellCard = ({ brand }) => {
   return (
-    <div className="card flex-row md:w-96 w-80 md:mx-0 mx-auto border border-gray-300 rounded-xl  md:hover:shadow-lg md:hover:shadow-[#508C9B] md:hover:scale-105 transition-all ease-in-out duration-300 relative">
+    <div data-aos="zoom-in-right" data-aos-delay="600" className="card flex-row md:w-96 w-80 md:mx-0 mx-auto border border-gray-300 rounded-xl  md:hover:shadow-lg md:hover:shadow-[#508C9B] md:hover:scale-105 transition-all ease-in-out duration-300 relative">
       <figure className="rounded-br-3xl">
         <img
           src={brand.brand_logo}
           alt="Shoes"
+          data-aos="zoom-out" 
+          data-aos-delay="800"
           className="md:w-24 w-16 md:h-24 h-16 rounded-full absolute -top-4 md:-left-12 -left-3 border-2 border-gray-400 "
         />
       </figure>

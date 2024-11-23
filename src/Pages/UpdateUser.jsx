@@ -27,12 +27,13 @@ const UpdateUser = () => {
         <img
           src="https://i.ibb.co.com/XJK9tnp/Personal-site-amico.png"
           alt=""
+          data-aos="fade-up"
           className="w-[45%] md:ml-12 md:block hidden"
         />
         <div className="border border-white md:block hidden"></div>
   
         {/* from start */}
-        <div className="login">
+        <div data-aos="fade-down" className="login">
           <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 md:mx-0 md:mt-10 mx-4">
             <form onSubmit={handleUserUpdate} className="card-body">
               <div className="form-control">

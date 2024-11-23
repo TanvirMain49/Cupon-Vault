@@ -54,15 +54,16 @@ const Login = () => {
   return (
     <div className="md:max-w-screen flex gap-10 py-20 md:px-0 px-4 md:mx-auto md:ml-20 bg-[#201E43]">
       <img
+        data-aos="fade-up"
         src="https://i.ibb.co.com/vY9P8XP/Computer-login-bro-2.png"
         alt=""
         className="w-[45%] md:ml-12 md:block hidden"
       />
-      <div className="border border-white lg:block md:hidden hidden"></div>
+      <div data-aos="zoom-in" className="border border-white lg:block md:hidden hidden"></div>
 
       {/* from start */}
-      <div className="login">
-        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 lg:mx-0 md:mt-10 mx-4">
+      <div data-aos="fade-down" className="login">
+        <div className="card md:w-full md:max-w-sm h-[67%] bg-white/20 backdrop-blur-lg border border-white/30 rounded-lg p-3 text-white md:ml-12 ml-8 md:mx-0 md:mt-10 mx-4">
           <form onSubmit={handleLogIn} className="card-body">
             <div className="form-control">
               <label className="label">
